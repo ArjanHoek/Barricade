@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.game-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  background-color: #eee;
+  width: 80rem;
+  height: 80rem;
+  border: 0.2rem solid #333;
+  display: flex;
+  justify-content: center;
+}
+
+.fields {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.field {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 0.2rem solid #333;
+}
+
+.field.hide {
+  visibility: hidden;
+}
+
+.field-row {
+  display: flex;
+  gap: 0.5rem;
+}
